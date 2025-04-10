@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Home</title>
 </head>
 <body>
-    <script src="script.js" defer></script>
-    <button id="themeToggle">Switch Theme</button>
-    <h2>Team Members</h2>
-<ul id="userList"></ul>
-<button id="loadUsersBtn">Load Users</button>
-<div class="faq-item">
-    <h3 class="question">What is this website about?</h3>
-    <p class="answer">This is a demo project for learning web development.</p>
-</div>
-<div class="faq-item">
-    <h3 class="question">How do I contact you?</h3>
-    <p class="answer">Use the contact form on the contact page.</p>
-</div>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <button id="themeToggle">Switch Theme</button>
+    </header>
+    <main>
+        <section>
+            <h2>Chikondi Banda and Taizya yamba</h2>
+            <ul id="userList"></ul>
+            <button id="loadUsersBtn">Load Users</button>
+        </section>
+        <section>
+            <h2>FAQ</h2>
+            <div class="faq-item">
+                <h3 class="question">What is this website about?</h3>
+                <p class="answer">This is a demo project for learning web development.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">How can I contact you?</h3>
+                <p class="answer">Please use the form on the Contact page to reach out.</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
